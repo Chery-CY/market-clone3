@@ -73,11 +73,10 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #fe6f0f;
-  opacity: 1;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
